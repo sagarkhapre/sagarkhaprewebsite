@@ -118,12 +118,17 @@ header{position:sticky;top:0;z-index:20;background:rgba(10,10,10,.88);backdrop-f
 @media(max-width:860px){.vids{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.vids{grid-template-columns:1fr}}
 .sub{font-size:18px;font-weight:600;margin:30px 0 14px;color:#fff}
-.igrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;align-items:start}
-.reelbox{position:relative}
-.reelbox .pl{position:absolute;top:10px;left:10px;z-index:2;background:var(--gold);color:#111;font-weight:600;font-size:12px;padding:3px 10px;border-radius:99px}
-.reelbox blockquote.instagram-media{min-width:0!important;width:100%!important;margin:0!important;border-radius:14px!important;background:#fff}
+.igrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;align-items:start}
+.rcard{position:relative;display:block;border-radius:16px;overflow:hidden;border:1px solid var(--line);background:#000;aspect-ratio:9/16;transition:transform .2s,border-color .2s}
+.rcard:hover{transform:translateY(-4px);border-color:var(--gold)}
+.rcard img{width:100%;height:100%;object-fit:cover}
+.rcard .shade{position:absolute;inset:auto 0 0 0;padding:44px 14px 14px;background:linear-gradient(transparent,rgba(0,0,0,.92))}
+.rcard .shade h4{font-size:15px;font-weight:600;line-height:1.35;color:#fff}
+.rcard .shade small{display:block;margin-top:4px;color:#ffd866;font-size:12px}
+.rcard .pl{position:absolute;top:10px;left:10px;background:var(--gold);color:#111;font-weight:600;font-size:12px;padding:3px 10px;border-radius:99px}
+.rcard .pi{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:56px;height:56px;border-radius:50%;background:rgba(0,0,0,.55);border:2px solid #fff;display:flex;align-items:center;justify-content:center;color:#fff;font-size:20px;padding-left:4px}
 @media(max-width:860px){.igrid{grid-template-columns:1fr 1fr}}
-@media(max-width:560px){.igrid{grid-template-columns:1fr}}
+@media(max-width:560px){.igrid{grid-template-columns:1fr 1fr;gap:12px}.rcard .shade h4{font-size:13px}}
 footer{padding:40px 0;border-top:1px solid #1c1c1c;color:var(--muted);font-size:14px}
 .foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px}
 .foot .links{display:flex;gap:18px}
@@ -347,15 +352,13 @@ footer{padding:40px 0;border-top:1px solid #1c1c1c;color:var(--muted);font-size:
 <script src="reels.js"></script>
 <script>
 (function(){
- function box(code,plays){
-  return '<div class="reelbox">'+(plays?'<span class="pl">&#9654; '+plays+' plays</span>':'')+'<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/'+code+'/" data-instgrm-version="14"><a href="https://www.instagram.com/reel/'+code+'/">View this reel on Instagram</a></blockquote></div>';
+ function esc(t){var d=document.createElement('div');d.textContent=t||'';return d.innerHTML}
+ function card(r){
+  var u='https://www.instagram.com/reel/'+r.code+'/';
+  return '<a class="rcard" href="'+u+'" target="_blank" rel="noopener"><img loading="lazy" src="img/reels/'+r.code+'.jpg" alt="'+esc(r.title)+'">'+(r.plays?'<span class="pl">&#9654; '+esc(r.plays)+' plays</span>':'')+'<span class="pi">&#9654;</span><div class="shade"><h4>'+esc(r.title)+'</h4><small>Watch on Instagram</small></div></a>';
  }
- document.getElementById('reels-latest').innerHTML=(window.REELS_LATEST||[]).map(function(c){return box(c,'')}).join('');
- document.getElementById('reels-top').innerHTML=(window.REELS_TOP||[]).map(function(r){return box(r.code,r.plays)}).join('');
- var loaded=false;
- function load(){if(loaded)return;loaded=true;var sc=document.createElement('script');sc.async=true;sc.src='https://www.instagram.com/embed.js';document.body.appendChild(sc);}
- var sec=document.getElementById('reels');
- if('IntersectionObserver' in window){new IntersectionObserver(function(e,o){if(e[0].isIntersecting){load();o.disconnect();}},{rootMargin:'600px'}).observe(sec);}else{load();}
+ document.getElementById('reels-latest').innerHTML=(window.REELS_LATEST||[]).map(card).join('');
+ document.getElementById('reels-top').innerHTML=(window.REELS_TOP||[]).map(card).join('');
 })();
 </script>
 </body>
