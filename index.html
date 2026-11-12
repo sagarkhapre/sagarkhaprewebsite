@@ -227,7 +227,7 @@ footer{padding:40px 0;border-top:1px solid #1c1c1c;color:var(--muted);font-size:
  <div class="wrap">
   <span class="eyebrow">Latest on YouTube</span>
   <h2>Fresh <span>episodes</span></h2>
-  <p class="lead" id="vid-note">New episodes appear here automatically every week.</p>
+  <p class="lead" id="vid-note">New episodes appear here automatically.</p>
   <div class="vids" id="vids"></div>
   <div class="cta-row" style="margin-top:26px"><a class="btn btn-ghost" href="https://www.youtube.com/@SagarKhapreAreBaapRe/videos">See all videos on YouTube &rarr;</a></div>
  </div>
@@ -318,9 +318,9 @@ footer{padding:40px 0;border-top:1px solid #1c1c1c;color:var(--muted);font-size:
  box.innerHTML=list.map(function(v){
   var d=new Date(v.date+'T00:00:00');
   var ds=d.toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'});
-  return '<a class="vid" href="https://www.youtube.com/watch?v='+v.id+'"><div class="th"><img loading="lazy" src="img/yt/'+v.id+'.jpg" alt=""><span class="dur">'+esc(v.duration)+'</span></div><div class="meta"><h3>'+esc(v.title)+'</h3><small>'+fmt(v.views)+' views &middot; '+ds+'</small></div></a>';
+  return '<a class="vid" href="https://www.youtube.com/watch?v='+v.id+'"><div class="th"><img loading="lazy" src="'+(v.thumb||('img/yt/'+v.id+'.jpg'))+'" alt="">'+(v.duration?'<span class="dur">'+esc(v.duration)+'</span>':'')+'</div><div class="meta"><h3>'+esc(v.title)+'</h3><small>'+fmt(v.views)+' views &middot; '+ds+'</small></div></a>';
  }).join('');
- if(window.VIDEOS_UPDATED){var u=new Date(window.VIDEOS_UPDATED+'T00:00:00');document.getElementById('vid-note').textContent='New episodes appear here automatically every week. Last updated '+u.toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'})+'.';}
+ if(window.VIDEOS_UPDATED){var u=new Date(window.VIDEOS_UPDATED+'T00:00:00');document.getElementById('vid-note').textContent='New episodes appear here automatically. Last updated '+u.toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'})+'.';}
 })();
 </script>
 </body>
