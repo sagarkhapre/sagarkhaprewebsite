@@ -1,8 +1,8 @@
-window.REELS_UPDATED = "2026-11-12";
+window.REELS_UPDATED = "2026-11-16";
 window.REELS_LATEST = [
 {"code":"DfcMg0Lyfef","title":"Is Kundali matching necessary?","plays":""},
-{"code":"DfXC423SupF","title":"Ayurveda removes skin warts permanently","plays":""},
-{"code":"DfR5PPPSZuX","title":"5 Vastu tips before building your home","plays":""}
+{"code":"DfZnqZ0S5jY","title":"Test your eyesight at home","plays":""},
+{"code":"DfXC423SupF","title":"Ayurveda removes skin warts permanently","plays":""}
 ];
 window.REELS_TOP = [
 {"code":"DTu4nCSjIo-","title":"Is off-spin really dying?","plays":"23L"},
