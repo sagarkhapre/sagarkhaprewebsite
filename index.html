@@ -131,6 +131,21 @@ header{position:sticky;top:0;z-index:20;background:rgba(10,10,10,.88);backdrop-f
 @media(max-width:560px){.igrid{grid-template-columns:1fr 1fr;gap:12px}.rcard .shade h4{font-size:13px}}
 .nav .short{display:none}
 @media(max-width:600px){.nav .full{display:none}.nav .short{display:inline}}
+.navr{display:flex;align-items:center;gap:16px}
+.navlink{font-weight:600;font-size:15px}
+.navlink:hover{color:var(--gold)}
+.bstrip{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:26px}
+.bcard{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:border-color .2s,transform .2s}
+.bcard:hover{border-color:var(--gold);transform:translateY(-3px)}
+.bcov{padding:20px;min-height:140px;display:flex;flex-direction:column;justify-content:center}
+.bcov .big{font-family:Anton,sans-serif;font-size:34px;line-height:.95;color:var(--gold);text-transform:uppercase}
+.bcov .small{font-family:Anton,sans-serif;font-size:15px;text-transform:uppercase;color:#fff;margin-top:6px}
+.bbody{padding:14px 16px}
+.bcat{display:inline-block;font-size:11px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#111;background:var(--gold);padding:3px 10px;border-radius:99px}
+.bbody h3{font-size:16px;line-height:1.35;margin-top:8px}
+.bc1{background:radial-gradient(circle at 20% 10%,#3a2c06,#0d0d0d 70%)}.bc2{background:radial-gradient(circle at 20% 10%,#3a0a0a,#0d0d0d 70%)}.bc3{background:radial-gradient(circle at 20% 10%,#0a2a1a,#0d0d0d 70%)}.bc4{background:radial-gradient(circle at 20% 10%,#1a103a,#0d0d0d 70%)}.bc5{background:radial-gradient(circle at 20% 10%,#0a1f3a,#0d0d0d 70%)}.bc6{background:radial-gradient(circle at 20% 10%,#2a1a06,#0d0d0d 70%)}.bc7{background:radial-gradient(circle at 20% 10%,#2a0a2a,#0d0d0d 70%)}
+@media(max-width:860px){.bstrip{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.bstrip{grid-template-columns:1fr}.navlink{font-size:14px}}
 footer{padding:40px 0;border-top:1px solid #1c1c1c;color:var(--muted);font-size:14px}
 .foot{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px}
 .foot .links{display:flex;gap:18px}
@@ -151,7 +166,7 @@ footer{padding:40px 0;border-top:1px solid #1c1c1c;color:var(--muted);font-size:
 <header>
  <div class="wrap nav">
   <a class="brand" href="#top"><img src="img/logo.jpg" alt="Sagar Khapre Are Baap Re logo"><div>Sagar Khapre<small>ARE BAAP RE PODCAST</small></div></a>
-  <a class="btn btn-gold" href="https://docs.google.com/forms/d/e/1FAIpQLSenIA_yu3FOZKnpqs94lnoDBvzJqXRmxCcEpZ-hBxlHRqrK3w/viewform" target="_blank" rel="noopener"><span class="full">Be our guest or suggest a guest &rarr;</span><span class="short">Be our guest &rarr;</span></a>
+  <div class="navr"><a class="navlink" href="/blog/">Blog</a><a class="btn btn-gold" href="https://docs.google.com/forms/d/e/1FAIpQLSenIA_yu3FOZKnpqs94lnoDBvzJqXRmxCcEpZ-hBxlHRqrK3w/viewform" target="_blank" rel="noopener"><span class="full">Be our guest or suggest a guest &rarr;</span><span class="short">Be our guest &rarr;</span></a></div>
  </div>
 </header>
 
@@ -191,6 +206,16 @@ footer{padding:40px 0;border-top:1px solid #1c1c1c;color:var(--muted);font-size:
  <div class="wrap">
   <p class="hook">Before he sat down with Ayurveda practitioner Vaidya Pankaj Tiwari, Sagar went to his hospital and <b>experienced the Agnikarma therapy on himself</b>. Before he asks a doctor about a cure, he visits the clinic. And when the cameras roll, <b>there is no script</b> &mdash; just a curious host from Nagpur asking the questions ordinary people actually want answered.</p>
   <blockquote class="quote">"Are Baapre began as an expression of surprise. Today it is a reminder that some of the most surprising, inspiring stories are right here in our own city."<cite>&mdash; Sagar Khapre</cite></blockquote>
+ </div>
+</section>
+
+<section id="blog-strip">
+ <div class="wrap">
+  <span class="eyebrow">From the blog</span>
+  <h2>Latest <span>takes</span></h2>
+  <p class="lead">My honest opinion on what everyone is talking about. New post every Monday.</p>
+  <div class="bstrip" id="bstrip"></div>
+  <div class="cta-row" style="margin-top:22px"><a class="btn btn-ghost" href="/blog/">Read all posts &rarr;</a></div>
  </div>
 </section>
 
@@ -334,6 +359,7 @@ footer{padding:40px 0;border-top:1px solid #1c1c1c;color:var(--muted);font-size:
   <div class="links">
    <a href="https://www.youtube.com/@SagarKhapreAreBaapRe">YouTube</a>
    <a href="https://www.instagram.com/sagarkhapre_arebaapre/">Instagram</a>
+   <a href="/blog/">Blog</a>
    <a href="https://docs.google.com/forms/d/e/1FAIpQLSenIA_yu3FOZKnpqs94lnoDBvzJqXRmxCcEpZ-hBxlHRqrK3w/viewform" target="_blank" rel="noopener">Be a guest</a>
   </div>
  </div>
@@ -362,6 +388,15 @@ footer{padding:40px 0;border-top:1px solid #1c1c1c;color:var(--muted);font-size:
  }
  document.getElementById('reels-latest').innerHTML=(window.REELS_LATEST||[]).map(card).join('');
  document.getElementById('reels-top').innerHTML=(window.REELS_TOP||[]).map(card).join('');
+})();
+</script>
+<script src="/blog/posts.js"></script>
+<script>
+(function(){
+ var cats=window.BLOG_CATEGORIES||[],posts=(window.BLOG_POSTS||[]).slice(0,3),box=document.getElementById('bstrip');
+ if(!posts.length){document.getElementById('blog-strip').style.display='none';return;}
+ function cat(s){for(var i=0;i<cats.length;i++)if(cats[i].slug===s)return cats[i];return{name:s,cl:'c1'}}
+ box.innerHTML=posts.map(function(p){var c=cat(p.cat);return '<a class="bcard" href="/blog/'+p.slug+'/"><div class="bcov b'+c.cl+'"><div class="big">'+p.big+'</div><div class="small">'+p.small+'</div></div><div class="bbody"><span class="bcat">'+c.name.replace(/&/g,'&amp;')+'</span><h3>'+p.title+'</h3></div></a>'}).join('');
 })();
 </script>
 </body>

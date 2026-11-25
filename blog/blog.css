@@ -1,0 +1,57 @@
+:root{--bg:#0a0a0a;--card:#141414;--line:#2a2a2a;--gold:#FFC21A;--txt:#f5f5f5;--muted:#a3a3a3}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--txt);font-family:Poppins,system-ui,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}
+header{position:sticky;top:0;z-index:5;background:rgba(10,10,10,.92);backdrop-filter:blur(8px);border-bottom:1px solid #1c1c1c}
+.nav{max-width:1120px;margin:0 auto;padding:0 20px;height:64px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600}
+.brand img{width:40px;height:40px;border-radius:50%;background:#fff}
+.links{display:flex;align-items:center;gap:18px;font-size:14px}
+.links a:hover{color:var(--gold)}
+.links a.on{color:var(--gold);font-weight:600}
+.btn{display:inline-block;padding:9px 16px;border-radius:99px;font-weight:600;font-size:14px}
+.btn-gold{background:var(--gold);color:#111}
+.links .btn-gold:hover{color:#111}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.hero{padding:46px 0 10px}
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold)}
+h1{font-family:Anton,Impact,sans-serif;font-weight:400;text-transform:uppercase;font-size:clamp(44px,8vw,80px);line-height:1;margin:10px 0}
+h1 span{color:var(--gold)}
+.lead{color:var(--muted);max-width:620px}
+.tabs{display:flex;gap:10px;overflow-x:auto;padding:26px 0 6px;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;border:1px solid #333;background:#111;color:#ddd;padding:9px 16px;border-radius:99px;font-size:14px}
+.tab:hover{border-color:var(--gold)}
+.tab.on{background:var(--gold);color:#111;border-color:var(--gold);font-weight:600}
+.feat{display:grid;grid-template-columns:1.2fr 1fr;margin:26px 0;border:1px solid #4a3c10;border-radius:20px;overflow:hidden;background:#111;transition:border-color .2s}
+.feat:hover{border-color:var(--gold)}
+.cover{position:relative;display:flex;flex-direction:column;justify-content:center;padding:28px;min-height:220px}
+.cover .big{font-family:Anton,sans-serif;font-size:clamp(40px,6vw,64px);line-height:.95;color:var(--gold);text-transform:uppercase}
+.cover .small{font-family:Anton,sans-serif;font-size:22px;text-transform:uppercase;color:#fff;margin-top:6px}
+.cover .lg{position:absolute;right:16px;bottom:16px;width:44px;height:44px;border-radius:50%;background:#fff}
+.feat .body{padding:26px}
+.cat{display:inline-block;font-size:11px;font-weight:600;letter-spacing:1.2px;text-transform:uppercase;color:#111;background:var(--gold);padding:3px 10px;border-radius:99px}
+.cat.alt{background:#222;color:#ffd866}
+.feat h2{font-size:24px;line-height:1.3;margin:12px 0 8px}
+.ex{color:var(--muted);font-size:15px}
+.by{font-size:13px;color:#888;margin-top:12px}
+.read{display:inline-block;margin-top:14px;color:var(--gold);font-weight:600}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:10px 0 40px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;transition:border-color .2s,transform .2s}
+.card:hover{border-color:var(--gold);transform:translateY(-3px)}
+.card .cover{min-height:150px;padding:20px}
+.card .cover .big{font-size:36px}
+.card .cover .small{font-size:16px}
+.card .body{padding:16px}
+.card h3{font-size:17px;line-height:1.35;margin:10px 0 6px}
+.empty{display:none;text-align:center;color:var(--muted);padding:40px 0 60px}
+.c1{background:radial-gradient(circle at 20% 10%,#3a2c06,#0d0d0d 70%)}
+.c2{background:radial-gradient(circle at 20% 10%,#3a0a0a,#0d0d0d 70%)}
+.c3{background:radial-gradient(circle at 20% 10%,#0a2a1a,#0d0d0d 70%)}
+.c4{background:radial-gradient(circle at 20% 10%,#1a103a,#0d0d0d 70%)}
+.c5{background:radial-gradient(circle at 20% 10%,#0a1f3a,#0d0d0d 70%)}
+.c6{background:radial-gradient(circle at 20% 10%,#2a1a06,#0d0d0d 70%)}
+.c7{background:radial-gradient(circle at 20% 10%,#2a0a2a,#0d0d0d 70%)}
+footer{border-top:1px solid #1c1c1c;padding:26px 20px;text-align:center;color:#777;font-size:13px}
+@media(max-width:860px){.feat{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.links .hide{display:none}}
+@media(max-width:560px){.grid{grid-template-columns:1fr}}
