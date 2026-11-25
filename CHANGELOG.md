@@ -10,6 +10,15 @@ Every change to the website is recorded here, newest first.
 
 ---
 
+## v1.3 — 25 Nov 2026 — Agnikarma post
+**Added**
+- New post: "I Tried Agnikarma Before I Interviewed the Doctor. Here's My Honest Take." at `/blog/agnikarma-vaidya-pankaj-tiwari/` (Ayurveda & Spirituality), with My take using Sagar's own words from the episode, Agnikarma vs Viddhakarma comparison, research summary, safety tips, medical disclaimer and podcast call to action (Vaidya Pankaj Tiwari episodes).
+- Share image for the post.
+
+**Changed**
+- Blog home now features the Agnikarma post; Vaibhav post moves to the grid.
+- Sitemap updated.
+
 ## v1.2.2 — 25 Nov 2026 — Remove highlights video
 **Removed**
 - "Watch the highlights" section (Willow by Cricbuzz video) from the Vaibhav post, because the video was not rendering on the live site.
