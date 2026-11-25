@@ -10,6 +10,10 @@ Every change to the website is recorded here, newest first.
 
 ---
 
+## v1.2.2 — 25 Nov 2026 — Remove highlights video
+**Removed**
+- "Watch the highlights" section (Willow by Cricbuzz video) from the Vaibhav post, because the video was not rendering on the live site.
+
 ## v1.2.1 — 25 Nov 2026 — BCCI photo on the Vaibhav post
 **Added**
 - BCCI's official X post (celebration photo after the 204) embedded as the main image under the headline, with a credit caption.
