@@ -11,23 +11,23 @@ window.BLOG_CATEGORIES = [
 ];
 window.BLOG_POSTS = [
  {
-  "slug":"agnikarma-vaidya-pankaj-tiwari",
-  "title":"I Tried Agnikarma Before I Interviewed the Doctor. Here's My Honest Take.",
-  "cat":"ayurveda-spirituality",
-  "date":"2026-11-25",
-  "read":"5 min read",
-  "excerpt":"What Agnikarma is, what research says, the 'no evidence' debate, and what to know before you try it. I tested it first.",
-  "big":"Agni<br>karma",
-  "small":"I tried it first"
- },
- {
   "slug":"vaibhav-sooryavanshi-204",
-  "title":"28-Ball 100, 52-Ball 200 at 15: Is Vaibhav Sooryavanshi the Next Sachin or the Next Prithvi Shaw?",
+  "title":"Is Vaibhav Sooryavanshi the next Sachin or the next Prithvi Shaw?",
   "cat":"cricket-sports",
   "date":"2026-11-25",
   "read":"5 min read",
   "excerpt":"He just broke two List A world records in one innings. His journey, why bowlers fear him, what BCCI is getting right and wrong, and my take.",
   "big":"52-ball<br>200",
   "small":"at 15 &middot; next Sachin?"
+ },
+ {
+  "slug":"agnikarma-vaidya-pankaj-tiwari",
+  "title":"I tried Agnikarma before I interviewed the doctor. Here's my honest take.",
+  "cat":"ayurveda-spirituality",
+  "date":"2026-11-25",
+  "read":"5 min read",
+  "excerpt":"What Agnikarma is, what research says, the 'no evidence' debate, and what to know before you try it. I tested it first.",
+  "big":"Agni<br>karma",
+  "small":"I tried it first"
  }
 ];
