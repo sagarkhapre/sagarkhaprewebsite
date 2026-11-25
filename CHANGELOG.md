@@ -10,6 +10,13 @@ Every change to the website is recorded here, newest first.
 
 ---
 
+## v1.2.1 — 25 Nov 2026 — BCCI photo on the Vaibhav post
+**Added**
+- BCCI's official X post (celebration photo after the 204) embedded as the main image under the headline, with a credit caption.
+
+**Changed**
+- The "52-ball 200 / 204" banner moved into the "The records he broke" section.
+
 ## v1.2 — 25 Nov 2026 — Blog redesign and podcast call to action
 **Changed**
 - Vaibhav Sooryavanshi post rewritten in a cleaner article layout: banner, hook, "My take" moved to second, records comparison bar, one pull quote, BCCI right vs wrong comparison, what he must avoid, short journey summary.
