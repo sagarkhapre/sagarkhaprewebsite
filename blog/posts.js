@@ -11,6 +11,16 @@ window.BLOG_CATEGORIES = [
 ];
 window.BLOG_POSTS = [
  {
+  "slug":"agnikarma-vaidya-pankaj-tiwari",
+  "title":"I Tried Agnikarma Before I Interviewed the Doctor. Here's My Honest Take.",
+  "cat":"ayurveda-spirituality",
+  "date":"2026-11-25",
+  "read":"5 min read",
+  "excerpt":"What Agnikarma is, what research says, the 'no evidence' debate, and what to know before you try it. I tested it first.",
+  "big":"Agni<br>karma",
+  "small":"I tried it first"
+ },
+ {
   "slug":"vaibhav-sooryavanshi-204",
   "title":"28-Ball 100, 52-Ball 200 at 15: Is Vaibhav Sooryavanshi the Next Sachin or the Next Prithvi Shaw?",
   "cat":"cricket-sports",
