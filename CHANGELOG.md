@@ -10,6 +10,18 @@ Every change to the website is recorded here, newest first.
 
 ---
 
+## v1.2 — 25 Nov 2026 — Blog redesign and podcast call to action
+**Changed**
+- Vaibhav Sooryavanshi post rewritten in a cleaner article layout: banner, hook, "My take" moved to second, records comparison bar, one pull quote, BCCI right vs wrong comparison, what he must avoid, short journey summary.
+- Menu on blog pages made consistent with the homepage: gold "Blog" link and gold "Be our guest" button on every blog page.
+- Author photo (studio picture) shown on the post instead of the logo.
+
+**Added**
+- Closing podcast call to action on the post: featured Faiz Fazal episode, Akshay Wakhare and Bhau Kadam episode cards, Subscribe on YouTube, Follow on Instagram, Share on WhatsApp, and follower proof.
+- Official highlights video (Willow by Cricbuzz) of the U19 World Cup final 175, as the last section of the post.
+- WhatsApp/LinkedIn share image for the post (`blog/vaibhav-sooryavanshi-204/share.jpg`).
+- Gold reading progress bar at the top of the post.
+
 ## v1.1 — 25 Nov 2026 — Blog section
 **Added**
 - Blog home page at `/blog/` with category tabs and a featured latest post.
