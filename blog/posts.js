@@ -15,7 +15,7 @@ window.BLOG_POSTS = [
   "title":"28-Ball 100, 52-Ball 200 at 15: Is Vaibhav Sooryavanshi the Next Sachin or the Next Prithvi Shaw?",
   "cat":"cricket-sports",
   "date":"2026-11-25",
-  "read":"6 min read",
+  "read":"5 min read",
   "excerpt":"He just broke two List A world records in one innings. His journey, why bowlers fear him, what BCCI is getting right and wrong, and my take.",
   "big":"52-ball<br>200",
   "small":"at 15 &middot; next Sachin?"
