@@ -10,6 +10,15 @@ Every change to the website is recorded here, newest first.
 
 ---
 
+## v1.3.1 — 25 Nov 2026 — Vaibhav image and easier-to-read titles
+**Changed**
+- Vaibhav post: the BCCI X post embed is replaced by the BCCI "204 (53)" image (`bcci-204.jpg`, credited "Image: BCCI.TV"). The X widget script is removed, so the page loads faster.
+- Vaibhav post is back on top of the blog (featured), with Agnikarma second.
+- Post titles now use normal capitals in bold Poppins, replacing the all-caps Anton font. This applies to both posts.
+- Vaibhav title now puts the question first: "Is Vaibhav Sooryavanshi the next Sachin or the next Prithvi Shaw?", with a gold stats line "28-ball 100. 52-ball 200. Age 15." under it. Page title, share title, Google headline and blog cards are updated to match.
+- Agnikarma title in sentence case: "I tried Agnikarma before I interviewed the doctor. Here's my honest take."
+- Mobile: smaller headline, author line kept on one line, image fits the screen.
+
 ## v1.3 — 25 Nov 2026 — Agnikarma post
 **Added**
 - New post: "I Tried Agnikarma Before I Interviewed the Doctor. Here's My Honest Take." at `/blog/agnikarma-vaidya-pankaj-tiwari/` (Ayurveda & Spirituality), with My take using Sagar's own words from the episode, Agnikarma vs Viddhakarma comparison, research summary, safety tips, medical disclaimer and podcast call to action (Vaidya Pankaj Tiwari episodes).
