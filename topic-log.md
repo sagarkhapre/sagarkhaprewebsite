@@ -12,3 +12,5 @@ One line per topic, newest at the bottom:
 Gukesh vs Sindarov World Chess Championship (24 Nov to 12 Dec, Geneva); Ramayana box office and Sita depiction debate; Nagpur winter session from 7 Dec; IPL 2027 auction 16 Dec Goa; AI boom and IT jobs; skin myths (Dr. Pallavi Rokde episode); Vidarbha cricket; kundali (Mahesh Mankar episode).
 
 ## Log
+2026-11-26 07:44 IST | watch | Ramayana Part 1 crossing 1,000 Cr India net, why it worked when Adipurush failed | India | my-take | pitched | 
+2026-11-26 07:44 IST | watch | Google India layoff rumours on Blind vs Google confirming 30 Cloud roles cut | India | tech-ai | pitched | 
