@@ -14,3 +14,5 @@ Gukesh vs Sindarov World Chess Championship (24 Nov to 12 Dec, Geneva); Ramayana
 ## Log
 2026-11-26 07:44 IST | watch | Ramayana Part 1 crossing 1,000 Cr India net, why it worked when Adipurush failed | India | my-take | pitched | 
 2026-11-26 07:44 IST | watch | Google India layoff rumours on Blind vs Google confirming 30 Cloud roles cut | India | tech-ai | pitched | 
+2026-11-26 13:44 IST | watch | Gukesh vs Sindarov World Chess Championship, can India keep the crown | World | my-take | pitched | 
+2026-11-26 13:44 IST | watch | US proposes up to 25% excess-capacity tariff on India, India rejects | India | business-startups | pitched | 
