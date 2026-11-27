@@ -10,6 +10,15 @@ Every change to the website is recorded here, newest first.
 
 ---
 
+## v1.4.1 — 27 Nov 2026 — Hindi version of the FSSAI post
+**Added**
+- Hindi version of the FSSAI / packaged food post at `/blog/fssai-bisleri-packaged-food/hi/`, in simple everyday Hindi, with the same sections, take, table and episode links.
+- An "English | हिंदी" switch at the top of both versions.
+- hreflang tags linking the two versions for Google; the Hindi page is added to the sitemap (`build_blog.py` now includes `hi/` and `mr/` folders when they exist).
+
+**Unchanged**
+- The English post link stays the same; only the language switch is added to it.
+
 ## v1.4 — 27 Nov 2026 — FSSAI and packaged food post
 **Added**
 - New post: "After the Bisleri batch and the Supreme Court order, will you still trust packaged food?" at `/blog/fssai-bisleri-packaged-food/` (Health & Myths). Covers the Supreme Court's 26 Nov order on red HIGH SUGAR / HIGH SALT / HIGH FAT front-of-pack warnings and FSSAI's stop-sale order on one Bisleri water batch (both sides), a timeline table, a "what you can check today" list, Sagar's take, a medical disclaimer and a podcast call to action (heart-health and myths episodes).

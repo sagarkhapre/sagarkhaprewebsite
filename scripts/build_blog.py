@@ -35,6 +35,9 @@ def main():
 
     urls = [("/", "daily", "1.0"), ("/blog/", "weekly", "0.9")]
     urls += [("/blog/%s/" % p["slug"], "monthly", "0.8") for p in posts]
+    # Translated versions (e.g. blog/<slug>/hi/) are added when the folder exists.
+    urls += [("/blog/%s/%s/" % (p["slug"], lang), "monthly", "0.7") for p in posts for lang in ("hi", "mr")
+             if os.path.exists(os.path.join(ROOT, "blog", p["slug"], lang, "index.html"))]
     urls += [("/blog/category/%s/" % c["slug"], "weekly", "0.6") for c in cats]
     latest = max([p["date"] for p in posts] or ["2026-11-12"])
     lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
