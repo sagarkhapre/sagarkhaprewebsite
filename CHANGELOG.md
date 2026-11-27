@@ -10,6 +10,15 @@ Every change to the website is recorded here, newest first.
 
 ---
 
+## v1.4.2 — 27 Nov 2026 — Same header everywhere, Hindi links, easier Hindi font
+**Changed**
+- All blog pages (blog home, 8 category pages, all posts) now use the same header as the home page: logo, "Sagar Khapre" and "ARE BAAP RE PODCAST" (second line hidden on phones, like the home page). The blog template is updated so future pages match.
+- Hindi FSSAI page now uses the Hind font for easier reading.
+
+**Added**
+- "हिंदी में पढ़ें" button on blog cards for posts that have a Hindi version (`"hi"` field in `posts.js`).
+- EN | हिं switch in the top menu bar of the FSSAI post on computers (phones keep the English | हिंदी switch at the top of the post).
+
 ## v1.4.1 — 27 Nov 2026 — Hindi version of the FSSAI post
 **Added**
 - Hindi version of the FSSAI / packaged food post at `/blog/fssai-bisleri-packaged-food/hi/`, in simple everyday Hindi, with the same sections, take, table and episode links.

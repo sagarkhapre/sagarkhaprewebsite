@@ -18,7 +18,8 @@ window.BLOG_POSTS = [
   "read":"5 min read",
   "excerpt":"Red HIGH SUGAR, HIGH SALT and HIGH FAT warnings are coming, and one water batch is off the shelves. What happened, what to check today, and my take.",
   "big":"Read the<br>packet",
-  "small":"3 red warnings coming"
+  "small":"3 red warnings coming",
+  "hi":"/blog/fssai-bisleri-packaged-food/hi/"
  },
  {
   "slug":"vaibhav-sooryavanshi-204",
