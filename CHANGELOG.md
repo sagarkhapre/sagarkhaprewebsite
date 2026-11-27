@@ -10,6 +10,14 @@ Every change to the website is recorded here, newest first.
 
 ---
 
+## v1.4 — 27 Nov 2026 — FSSAI and packaged food post
+**Added**
+- New post: "After the Bisleri batch and the Supreme Court order, will you still trust packaged food?" at `/blog/fssai-bisleri-packaged-food/` (Health & Myths). Covers the Supreme Court's 26 Nov order on red HIGH SUGAR / HIGH SALT / HIGH FAT front-of-pack warnings and FSSAI's stop-sale order on one Bisleri water batch (both sides), a timeline table, a "what you can check today" list, Sagar's take, a medical disclaimer and a podcast call to action (heart-health and myths episodes).
+- Share image for the post.
+
+**Changed**
+- Blog home now features the new post; sitemap updated.
+
 ## v1.3.1 — 25 Nov 2026 — Vaibhav image and easier-to-read titles
 **Changed**
 - Vaibhav post: the BCCI X post embed is replaced by the BCCI "204 (53)" image (`bcci-204.jpg`, credited "Image: BCCI.TV"). The X widget script is removed, so the page loads faster.
