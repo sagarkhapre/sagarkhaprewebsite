@@ -18,7 +18,8 @@ window.BLOG_POSTS = [
   "read":"5 min read",
   "excerpt":"45°C summers, a 2023 flood, trees cut for projects and a High Court asking 'Where is the greenery?'. What's going wrong, before the Green Nagpur meet.",
   "big":"Green on<br>paper?",
-  "small":"Nagpur's trees, heat &amp; floods"
+  "small":"Nagpur's trees, heat &amp; floods",
+  "hi":"/blog/nagpur-green-city-on-paper/hi/"
  },
  {
   "slug":"fssai-bisleri-packaged-food",
