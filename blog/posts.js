@@ -11,6 +11,16 @@ window.BLOG_CATEGORIES = [
 ];
 window.BLOG_POSTS = [
  {
+  "slug":"fssai-bisleri-packaged-food",
+  "title":"After the Bisleri batch and the Supreme Court order, will you still trust packaged food?",
+  "cat":"health-myths",
+  "date":"2026-11-27",
+  "read":"5 min read",
+  "excerpt":"Red HIGH SUGAR, HIGH SALT and HIGH FAT warnings are coming, and one water batch is off the shelves. What happened, what to check today, and my take.",
+  "big":"Read the<br>packet",
+  "small":"3 red warnings coming"
+ },
+ {
   "slug":"vaibhav-sooryavanshi-204",
   "title":"Is Vaibhav Sooryavanshi the next Sachin or the next Prithvi Shaw?",
   "cat":"cricket-sports",
