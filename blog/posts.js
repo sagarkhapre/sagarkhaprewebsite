@@ -11,6 +11,16 @@ window.BLOG_CATEGORIES = [
 ];
 window.BLOG_POSTS = [
  {
+  "slug":"nagpur-green-city-on-paper",
+  "title":"Is Nagpur still the green city, or just green on paper?",
+  "cat":"nagpur-vidarbha",
+  "date":"2026-11-28",
+  "read":"5 min read",
+  "excerpt":"45°C summers, a 2023 flood, trees cut for projects and a High Court asking 'Where is the greenery?'. What's going wrong, before the Green Nagpur meet.",
+  "big":"Green on<br>paper?",
+  "small":"Nagpur's trees, heat &amp; floods"
+ },
+ {
   "slug":"fssai-bisleri-packaged-food",
   "title":"After the Bisleri batch and the Supreme Court order, will you still trust packaged food?",
   "cat":"health-myths",
