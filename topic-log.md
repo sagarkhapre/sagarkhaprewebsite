@@ -20,3 +20,5 @@ Gukesh vs Sindarov World Chess Championship (24 Nov to 12 Dec, Geneva); Ramayana
 2026-11-27 12:43 IST | watch | FSSAI action on one Bisleri batch, is your packaged water safe | India | health-myths | published | https://sagarkhaprepodcast.in/blog/fssai-bisleri-packaged-food/
 2026-11-27 17:15 IST | manual | Green Nagpur part 1: is Nagpur still the green city or green on paper (before 29 Nov meet, invited by RJ Preeti) | Nagpur | nagpur-vidarbha | chosen | 
 2026-11-28 07:44 IST | watch | Rohit Sharma back as Mumbai Indians captain for IPL 2027, Hardik traded to Punjab Kings | India | cricket-sports | pitched | 
+2026-11-28 13:50 IST | watch | India collapse to 116/6 vs NZ in Christchurch, is Gill's Test batting unit failing abroad again | World | cricket-sports | pitched | 
+2026-11-28 13:50 IST | watch | Flipkart CEO Kalyan Krishnamurthy exits Dec 4 amid IPO delay, what it means for India's startup dream | India | business-startups | pitched | 
