@@ -22,3 +22,6 @@ Gukesh vs Sindarov World Chess Championship (24 Nov to 12 Dec, Geneva); Ramayana
 2026-11-28 07:44 IST | watch | Rohit Sharma back as Mumbai Indians captain for IPL 2027, Hardik traded to Punjab Kings | India | cricket-sports | pitched | 
 2026-11-28 13:50 IST | watch | India collapse to 116/6 vs NZ in Christchurch, is Gill's Test batting unit failing abroad again | World | cricket-sports | pitched | 
 2026-11-28 13:50 IST | watch | Flipkart CEO Kalyan Krishnamurthy exits Dec 4 amid IPO delay, what it means for India's startup dream | India | business-startups | pitched | 
+2026-11-28 18:40 IST | weekly | Nagpur tree census 48 lakh trees (+124% vs 2011), real green cover or just a count | Nagpur | nagpur-vidarbha | pitched | 
+2026-11-28 18:40 IST | weekly | Bhargavastra, Nagpur-made counter-swarm drone system completes Pokaran trials | India | tech-ai | pitched | 
+2026-11-28 18:40 IST | weekly | Panchayat season 5 trailer, is Phulera closer to real local politics | India | my-take | pitched | 
